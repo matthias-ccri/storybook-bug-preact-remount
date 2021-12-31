@@ -10,7 +10,8 @@
     "lint": "eslint src",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=a20e0dc82ff4"
   },
   "eslintConfig": {
     "extends": "preact",
@@ -27,6 +28,7 @@
     "@storybook/addon-links": "^6.5.0-alpha.5",
     "@storybook/preact": "^6.5.0-alpha.5",
     "babel-loader": "^8.2.3",
+    "chromatic": "^6.3.3",
     "core-js": "^3.20.1",
     "enzyme": "^3.10.0",
     "enzyme-adapter-preact-pure": "^2.0.0",
