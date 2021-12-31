@@ -10,7 +10,7 @@
     "lint": "eslint src",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "build-storybook": "build-storybook -o docs-build -s ./stories/assets",
     "chromatic": "npx chromatic --project-token=a20e0dc82ff4"
   },
   "eslintConfig": {
